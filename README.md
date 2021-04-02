@@ -2,7 +2,7 @@
 This project includes the Ionic/angular framework for the registration for Trainees, it includes forms, validations, search, export to csv.
 
 ![Register Users](video.gif)
-# FormsTest
+# Trainee-Registration-app
 
 ## Development server
 
