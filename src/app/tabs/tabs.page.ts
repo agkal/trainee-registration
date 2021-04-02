@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class TabsPage {
 
+  image:string = "register.png";
   constructor() {}
 
 }

@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/tab3"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-card>
+    <ion-item>
+      <ion-icon name="person-sharp" slot="end"></ion-icon>
+      <ion-label>Full Name</ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      {{data? data.fullName : '-'}}
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="book-sharp" slot="end"></ion-icon>
+      <ion-label>Course</ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      {{data? data.course : '-'}}
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="calendar-sharp" slot="end"></ion-icon>
+      <ion-label>Passing Year</ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      {{data? data.passingYear : '-'}}
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="mail-sharp" slot="end"></ion-icon>
+      <ion-label>User Email Address</ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      {{data? data.email : '-'}}
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="call-sharp" slot="end"></ion-icon>
+      <ion-label>Phone Number</ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      {{data? data.phone : '-'}}
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="school-sharp" slot="end"></ion-icon>
+      <ion-label>University Studied</ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      {{data? data.university : '-'}}
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="home-sharp" slot="end"></ion-icon>
+      <ion-label>City</ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      {{data? data.city : '-'}}
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

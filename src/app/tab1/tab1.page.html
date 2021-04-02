@@ -1,17 +1,53 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      <ion-icon name="home-outline"></ion-icon>
+      Home
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+
+<ion-content class="ion-padding">
+  <h1>Registered Users list</h1>
+
+
+  <ion-item-group *ngFor="let userObject of collection; let listIndex=index" (click)="expandOrCollapseRow(listIndex)">
+    <ion-list-header *ngIf="!userObject.expanded">
+
+      <ion-label>
+        <ion-icon name="person-circle-outline" item-start></ion-icon>
+        {{userObject.fullName}}
+      </ion-label>
+      <ion-icon name="caret-down-outline"></ion-icon>
+
+    </ion-list-header>
+
+    <ion-list-header *ngIf="userObject.expanded">
+      <ion-label>
+        <ion-icon name="person-circle-outline" item-start></ion-icon>
+        {{userObject.fullName}}
+      </ion-label>
+      <ion-icon name="caret-up-outline"></ion-icon>
+
+    </ion-list-header>
+    <ion-item *ngIf="userObject.expanded">Course: &nbsp; <span class="text-value">{{userObject.course}}</span>
+    </ion-item>
+    <ion-item *ngIf="userObject.expanded">Year: &nbsp; <span class="text-value"> {{userObject.passingYear}}</span>
+    </ion-item>
+    <ion-item *ngIf="userObject.expanded">Email: &nbsp; <span class="text-value">{{userObject.email}}</span></ion-item>
+    <ion-item *ngIf="userObject.expanded">Phone: &nbsp; <span class="text-value">{{userObject.phone}}</span></ion-item>
+    <ion-item *ngIf="userObject.expanded">University: &nbsp; <span class="text-value">{{userObject.university}}</span>
+    </ion-item>
+    <ion-item *ngIf="userObject.expanded">City: &nbsp; <span class="text-value">{{userObject.city}}</span></ion-item>
+
+
+  </ion-item-group>
+
+
+  <ion-button (click)="ExportTOExcel()" expand="block" color="primary">
+    ExportTOExcel
+  </ion-button>
+
 </ion-content>

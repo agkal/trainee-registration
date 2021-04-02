@@ -1,0 +1,224 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "course": "Computer Science",
+      "fullName": "Abdul Ghaffar",
+      "passingYear": 2020,
+      "email": "abd@gmail.com",
+      "phone": "0302-9265767",
+      "university": "NUST",
+      "city": "Islamabad"
+    },
+    {
+      "id": 2,
+      "course": "Physics",
+      "fullName": "Ahmad",
+      "passingYear": 2019,
+      "email": "ahmad@yahoo.com",
+      "phone": "0315-2036977",
+      "university": "FAST",
+      "city": "Islamabad"
+    },
+    {
+      "id": 3,
+      "course": "Computer Science",
+      "fullName": "Zubair Ali",
+      "passingYear": 2010,
+      "email": "zubair@gmail.com",
+      "phone": "0312-3015977",
+      "university": "LUMS",
+      "city": "Lahore"
+    },
+    {
+      "id": 4,
+      "course": "History",
+      "fullName": "Adnan",
+      "passingYear": 2016,
+      "email": "adnan@gmail.com",
+      "phone": "0364-5698298",
+      "university": "Mehran",
+      "city": "Jamshoro"
+    },
+    {
+      "id": 5,
+      "course": "Business",
+      "fullName": "Ehtisham",
+      "passingYear": 2019,
+      "email": "ehsan@yahoo.com",
+      "phone": "0380-3255952",
+      "university": "COMSAT",
+      "city": "Islamabad"
+    },
+    {
+      "id": 6,
+      "course": "Electrical Engineering",
+      "fullName": "Sanaullah",
+      "passingYear": 2020,
+      "email": "sanaullah@gmail.com",
+      "phone": "0302-9874563",
+      "university": "FAST",
+      "city": "Islamabad"
+    },
+    {
+      "id": 7,
+      "course": "Civil Engineering",
+      "fullName": "Awais",
+      "passingYear": 2021,
+      "email": "awais@gmail.com",
+      "phone": "0312-3654724",
+      "university": "NED",
+      "city": "Hyderabad"
+    },
+    {
+      "id": 8,
+      "course": "Civil Engineering",
+      "fullName": "Ravi Kumar",
+      "passingYear": 2021,
+      "email": "ravi@gmail.com",
+      "phone": "0310-6547855",
+      "university": "NED",
+      "city": "Hyderabad"
+    },
+    {
+      "id": 9,
+      "course": "Mechanical",
+      "fullName": "Hamza",
+      "passingYear": 2021,
+      "email": "hamza@gmail.com",
+      "phone": "0320-3214568",
+      "university": "COMSAT",
+      "city": "Gujrat"
+    },
+    {
+      "course": "Aero Space",
+      "fullName": "Shahbaz",
+      "passingYear": 2020,
+      "email": "shahbaz@gmail.com",
+      "phone": "0302-9265761",
+      "university": "EME",
+      "city": "Rawalpindi",
+      "id": 10
+    },
+    {
+      "course": "Engineering",
+      "fullName": "Masroor",
+      "passingYear": "2008",
+      "email": "masroor@gmail.com",
+      "phone": "0332-2770964",
+      "university": "Sindh University",
+      "city": "Jamshoro",
+      "id": 11
+    },
+    {
+      "course": "Computer",
+      "fullName": "Abdul",
+      "passingYear": "2020",
+      "email": "abdul.ghaffar.abbasi123@gmail.com",
+      "phone": "3029265767",
+      "university": "NUST",
+      "city": "islamabad",
+      "id": 12
+    },
+    {
+      "course": "Computer Science",
+      "fullName": "Abdul Ghaffar",
+      "passingYear": "2020",
+      "email": "abdul2@gmail.com",
+      "phone": "0302926576",
+      "university": "NUST",
+      "city": "larkana",
+      "id": 13
+    },
+    {
+      "course": "computer",
+      "fullName": "Abdul",
+      "passingYear": "2020",
+      "email": "abdul.ghaffar.abbasi123@gmail.com",
+      "phone": "3029265767",
+      "university": "nust",
+      "city": "islamabad",
+      "id": 14
+    },
+    {
+      "course": "Computer Science",
+      "fullName": "Abdul Ghaffar Kalhoro",
+      "passingYear": "2020",
+      "email": "aaa@gmail.com",
+      "phone": "03026958585",
+      "university": "NUST",
+      "city": "Larkana",
+      "id": 15
+    },
+    {
+      "course": "abdul",
+      "fullName": "abdul",
+      "passingYear": "2020",
+      "email": "abdul.ghaffar.abbasi123@gmail.com",
+      "phone": "3029265767",
+      "university": "abdul",
+      "city": "islamabad",
+      "id": 16
+    },
+    {
+      "course": "a",
+      "fullName": "Abdul",
+      "passingYear": "2020",
+      "email": "abdul.ghaffar.abbasi123@gmail.com",
+      "phone": "3029265767",
+      "university": "a",
+      "city": "islamabad",
+      "id": 17
+    },
+    {
+      "course": "aa",
+      "fullName": "aaaa",
+      "passingYear": "2020",
+      "email": "abdul.ghaffar.abbasi123@gmail.com",
+      "phone": "3029265767",
+      "university": "nust",
+      "city": "islamabad",
+      "id": 18
+    },
+    {
+      "course": "a2",
+      "fullName": "a2",
+      "passingYear": "2020",
+      "email": "a2@gmil",
+      "university": "nust",
+      "city": "a",
+      "username": "a2222",
+      "country_phone": {
+        "country": {
+          "iso": "UY",
+          "name": "Uruguay",
+          "sample_phone": "094 231 234",
+          "code": "+598"
+        },
+        "phone": "094666666"
+      },
+      "phone": "094666666",
+      "id": 19
+    },
+    {
+      "course": "title",
+      "fullName": "test",
+      "passingYear": "2020",
+      "email": "test@gmail",
+      "university": "nust",
+      "city": "larkana",
+      "username": "test1",
+      "country_phone": {
+        "country": {
+          "iso": "PK",
+          "name": "Pakistan",
+          "sample_phone": "0301 2345678",
+          "code": "+92"
+        },
+        "phone": "03021569988"
+      },
+      "phone": "03021569988",
+      "id": 20
+    }
+  ]
+}
